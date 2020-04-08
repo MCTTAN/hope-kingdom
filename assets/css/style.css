@@ -97,7 +97,7 @@ h6 { font-size: 30px; }
   line-height: 5;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #fff;
+  background: black;
   opacity: 1.0;
 }
 
@@ -143,6 +143,12 @@ h6 { font-size: 30px; }
   max-height: 140px;
 }
 
+.dropdown-item * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /* -- Header (Mobile) -- */
 
 @media (max-width: 992px) {
@@ -163,7 +169,7 @@ h6 { font-size: 30px; }
   }
 }
 
-.navmenu, .navmenu * {
+.nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
